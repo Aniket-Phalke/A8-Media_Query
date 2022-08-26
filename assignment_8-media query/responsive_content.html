@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color:papayawhip;
+            display: flex;
+            justify-content: center;
+        }
+        .mywebsit{
+            
+            display:flex;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            height: 40vh;
+            padding-top: 90px;
+            background-repeat: no-repeat;
+            align-items: center;
+        }
+
+
+* {
+  box-sizing: border-box;
+}   
+
+.fakeimage{
+    background-color: #aaa;
+  width: 100%;
+  padding: px;
+}
+.side {
+    flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.row {  
+  display: flex;
+          flex-wrap: wrap;
+          padding:  4px;
+         
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  width:100%;
+
+}
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  .row,.navbar {   
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header{
+    text-align: center;
+  }
+  #heading{
+    text-align: center;
+    color: brown;
+  }
+  .navbar{
+    background-color: darkslategray;
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+ 
+}
+.fakeimage{
+  color:maroon;
+  text-align: center;
+}
+.footer{
+  color: maroon;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: gray;
+}
+#dropimg{
+  background-image: url("animals/tigergif1.gif");
+  height: 400px;
+    width: 400px;
+  background-repeat: no-repeat;
+ 
+}
+#dropimg1{
+  background-image: url("fortimages/elephantgif1.gif");
+  height: 400px;
+    width: 400px;
+  background-repeat: no-repeat;
+
+}}
+.column{
+  display: flex;
+  
+}
+.fakeimage1{
+  margin-top: 10px;
+  border: black solid;
+  margin-left: 40px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>resize the browser window to see the responsive effect</h2>
+    </div>
+    <div class="mywebsit"><img src="animals/animal2.jpg"height="200px"width="30%">
+    
+ </div>
+ <div class="navbar">
+    <a href="#">Mammals</a>
+    <a href="#">Birds</a>
+    <a href="#">Reptiles</a>
+    <a href="#">Amphibians</a>
+  </div>
+ <div class="row">
+ <div class="side">
+    <div class="aboutme">
+        <h2 id="heading">About</h2>
+        <h3 style="font-weight: bold;font-size: 30px;padding-top:9px;">Animals</h3>
+       <div class="fakeimage" ><img src="animals/animal1.jpg" height="140px"width="100%"></div>
+       <p>Love animals and they will love you too</p>
+       <h3 id="heading">Types</h3>
+       <h4>Main types of Animals</h4>
+    </div>
+    <div class="fakeimage" style="height:60px; font-weight: bold;font-size: 30px;padding-top:9px;">Mammals</div><br>
+    <div class="fakeimage" style="height:60px; font-weight: bold;font-size: 30px;padding-top:9px;">Birds</div><br>
+    <div class="fakeimage" style="height:60px;font-weight: bold;font-size: 30px;padding-top:9px;">Reptiles</div><br>
+    <div class="fakeimage" style="height:60px; font-weight: bold;font-size: 30px;padding-top:9px;">Amphibians</div><br>
+    <div class="fakeimage" style="height:60px; font-weight: bold;font-size: 30px;padding-top:9px;">Minibeasts (or Arthropods)</div><br>
+ <div><video width="320" height="240" controls autoplay loop>
+  <source src="animals/vid.mp4" type="video/mp4">
+  browser does not support the video tag.
+</video></div>
+<div id="dropimg"></div>
+<div id="dropimg1"></div>
+
+  </div>
+ <div class="main">
+    <h2 id="heading"></h2>
+    <h5 style="font-size:20px";>Mammals</h5>
+      <div class="column">
+    <div class="fakeimage1"><img src="animals/mamels.jpg"width="300px"height="250px"></div>
+    <div class="fakeimage1"><img src="animals/mamels.jpg"width="300px"height="250px"></div>
+      </div>
+    <p>About Mamels..</p>
+    <p>A mammal is an animal that breathes air, has a backbone, and grows hair at some point during its life. In addition, all female mammals have glands that can produce milk. Mammals are among the most intelligent of all living creatures. Mammals include a wide variety of animals, from cats to humans to whales.</p>   
+
+    <h2 id="heading"></h2>
+    <h5 style="font-size:20px";>Birds</h5>
+      <div class="column">
+    <div class="fakeimage1"><img src="animals/bird.jpg"width="300px"height="250px"></div>
+    <div class="fakeimage1"><img src="animals/bird.jpg"width="300px"height="250px"></div>
+      </div>
+    <p>About Birds..</p>
+    <p>Birds are a group of warm-blooded vertebrates constituting the class Ave, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton.</p> 
+    
+    <h2 id="heading"></h2>
+    <h5 style="font-size:20px";>Reptiles</h5>
+      <div class="column">
+    <div class="fakeimage1"><img src="animals/rep.jpg"width="300px"height="250px"></div>
+    <div class="fakeimage1"><img src="animals/rep.jpg"width="300px"height="250px"></div>
+      </div>
+    <p>About Reptiles..</p>
+    <p>Reptiles are air-breathing, cold-blooded vertebrates that have scaly bodies rather than hair or feathers; most reptile species are egg-laying, though certain “squamates” — lizards, snakes and worm-lizards — give birth to live young.</p> 
+    
+    <h2 id="heading"></h2>
+    <h5 style="font-size:20px";>Amphibians</h5>
+      <div class="column">
+    <div class="fakeimage1"><img src="animals/Amphibians.jpg"width="300px"height="250px"></div>
+    <div class="fakeimage1"><img src="animals/Amphibians.jpg"width="300px"height="250px"></div>
+      </div>
+    <p>About Amphibians..</p>
+    <p>Amphibians are small vertebrates that need water, or a moist environment, to survive. The species in this group include frogs, toads, salamanders, and newts. All can breathe and absorb water through their very thin skin. Amphibians also have special skin glands that produce useful proteins.</p> 
+    
+    <h2 id="heading"></h2>
+    <h5 style="font-size:20px";>Minibeasts (or Arthropods)</h5>
+      <div class="column">
+    <div class="fakeimage1"><img src="animals/Minibeasts.jpg"width="300px"height="250px"></div>
+    <div class="fakeimage1"><img src="animals/Minibeasts.jpg"width="300px"height="250px"></div>
+      </div>
+    <p>About Minibeasts (or Arthropods)..</p>
+    <p>Minibeasts are 'small creatures', like worms, snails, insects and spiders. The scientific term for them is 'invertebrates' – a creature without a backbone. Because they don't have a backbone, minibeasts tend to have other structures which support and protect them.</p> 
+    <div class="footer">
+    <h1>Save a pet, save a creature</h1>
+  </div>
+</div>
+</body>
+</html>
